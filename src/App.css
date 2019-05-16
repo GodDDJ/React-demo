@@ -1,33 +1,42 @@
-.App {
+html,body,#root,.App {
+  height: 100%;
+	font: 14px/1.5 "Microsoft Yahei","微软雅黑","宋体",serif;
+}
+.head{
+  width: 100%;
+  height: 90px;
+  background-color:  #0000ff;
+  border-bottom: 1px solid teal;
+}
+.head h1{
+  color: #ffffff;
   text-align: center;
+  font-family: '楷体';
+  padding-top: 0.9em;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.App .nav {
+  float:left;
+  width:200px;
+  background-color: teal;
+  height: 100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.title{
+  margin-top: 2em;
+  text-align: center;
+  border-bottom: 1px solid #efefef;
 }
-
-.App-link {
-  color: #61dafb;
+.App .nav ul li{
+  list-style: none;
+  line-height: 4em;
+  margin-left: -3em;
+  text-align: center;
+  border-bottom: 1px solid #efefef;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App .nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.App .content {
+  margin-left: 200px;
+  padding:1em;
 }
